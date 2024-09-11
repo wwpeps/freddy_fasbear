@@ -1,0 +1,15 @@
+﻿<Page x:Class="freddy_fasbear.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:freddy_fasbear"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid>
+        <TextBlock Text="Хар хар хар хар хар" FontSize="12" FontStyle="Italic" VerticalAlignment="Bottom" HorizontalAlignment="center" ></TextBlock>
+        <Button Click="btn_NewPage" Height="50" Width="150"></Button>
+    </Grid>
+</Page>
